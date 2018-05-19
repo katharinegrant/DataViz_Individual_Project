@@ -9,13 +9,15 @@ The data came from the Australian Bureau of Statistics' report on causes of deat
 
 ### Graph Steps
 
-Once in Tableau, I created calculated fields for all not-gun-related deaths  by adding other homicides and other suicides, and all gun-related deaths by adding gun homicides and gun suicides.
+Once in Tableau, I created calculated fields for all not-gun-related deaths by adding other homicides and other suicides, and all gun-related deaths by adding gun homicides and gun suicides.
 
-I set the columns as “Year” (as a dimension) and the rows as “Measure Values” which I filtered to only “Not Gun-Related” and “Gun-Related”. I then added a reference line for the beginning of the buyback program, changed the bar colors, and added text boxes with the source and an explanation.
+I set the columns as “Year” (as a dimension) and the rows as “Measure Values” which I filtered to only “Not Gun-Related” and “Gun-Related”. I then added a reference line for the beginning of the buyback program, changed the bar colors based on the measure names, and added text boxes with the source and an explanation.
 
 While I did experiment with including the full breakdown of gun-related vs. not gun-related and suicide vs. homicide, the extra detail looked unnecessary since I was focusing on the trend in all deaths. I also tried the same graph with the death rates instead of counts, but the overall rate was decreasing while the overall count was increasing which is a better contradiction to claims that the buyback decreased deaths.
 
 ![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_1.png)
+
+(https://public.tableau.com/profile/katharine.grant#!/vizhome/AustraliaViolentDeaths/AustraliaViz)
 
 ### Future Enhancements
 A future feature could be including trend lines for the gun-related deaths and the total deaths to highlight that despite the downward trend in gun deaths, violent deaths have not decreased.
@@ -27,9 +29,11 @@ The original graph #1 made its point by limiting the data to developed countries
 The dataset is the same as the one I used for a previous revision and is in the excel folder (Gun death and ownership comb.xlsx). The firearm-related deaths by country data come from https://en.wikipedia.org/wiki/List_of_countries_by_firearm-related_death_rate.
 
 ### Graph Steps
-I set the columns as “Country”  and the rows as “Gun Deaths per 100,000 People” before deciding to switch them to make the names more readable. I then filtered gun deaths to above 2.5 to remove the long tail of countires with low gun deaths so the U.S. was closer to the center. I also changed the bar color for the U.S. so it would stand out and added a text box with the source. When placing the graph into a dashboard, I removed the legend because it was exactly the same as the y-axis labels.
+I set the columns as “Country”  and the rows as “Gun Deaths per 100,000 People” before deciding to switch them to make the names more readable and sort the countries by rate. I then filtered gun deaths to above 2.5 to remove the long tail of countires with low gun deaths so the U.S. was closer to the center. I also changed the bar color for the U.S. so it would stand out and added a text box with the source. When placing the graph into a dashboard, I removed the legend because it was exactly the same as the y-axis labels.
 
 ![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_2.png)
+
+(https://public.tableau.com/profile/katharine.grant#!/vizhome/DeathRatebyCountry_0/DeathRateViz)
 
 ### Future Enhancements
 A future enhancement could be including a time element to see how the countries' gun death rates have changed over the last few years or decades, although I don't know which side of the argument the time-lapsed data would support since I don't know if the U.S. has risen or fallen in its ranking.
@@ -49,6 +53,7 @@ The change to a map was to distract from the actual trends seen in the original 
 
 ![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_3.png)
 
+(https://public.tableau.com/profile/katharine.grant#!/vizhome/GunsandDeathRatebyCountry/GunDeathViz)
 
 ### Future Enhancements
 
