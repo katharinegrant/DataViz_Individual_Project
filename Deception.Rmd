@@ -32,7 +32,7 @@ I set the columns as “Country”  and the rows as “Gun Deaths per 100,000 Pe
 ![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_2.png)
 
 ### Future Enhancements
-A future enhancement could be include a time element to see how the countries' gun death rates have changed over the last few years or decades, although I don't know which side of the argument the time-lapsed data would support since I don't know if the U.S. has risen or fallen in its ranking.
+A future enhancement could be including a time element to see how the countries' gun death rates have changed over the last few years or decades, although I don't know which side of the argument the time-lapsed data would support since I don't know if the U.S. has risen or fallen in its ranking.
 
 ## Visualization 3 - Graph #6
 Like with graph #1, I was curious how graph #6 could be manipulated by changing the selected countries. The original graph excluded countries with low Development Index scores and I thought including those countries or removing countries with low populations might change the graph's trend.
@@ -47,9 +47,11 @@ I changed the graph so that the columns and rows were longitude and latitude and
 
 The change to a map was to distract from the actual trends seen in the original graph. Instead, because of the placement and size of the circles, the reader will notice that the U.S.'s circle is both big and green while all of the red circles are smaller, which supports the claim that countries with more guns have fewer gun deaths.
 
-![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_3%20copy.jpg)
-
 ![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_3.png)
 
 
 ### Future Enhancements
+
+A future enhancement could be to find more data for areas other than Europe and the Americas because the visualization feels somewhat unbalanced with very few data points on the right, but I don't want to crop off nearly half of the map.
+
+
