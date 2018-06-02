@@ -17,7 +17,7 @@ The data wrangling can be found in [this file](https://github.com/katharinegrant
 In the first version, I set the column as “Guns per 100 people” (as a dimension) and the row as “Total Gun Deaths per 100,000 people” (as a dimension). I then filtered “2015 HDI” to at least 0.79 (same parameter as original for countries), set the point colors by type (country vs. state), changed the point shape, and added the “Place” name as text.
 
 #### Revisions
-To improve the visualization, I changed the point shape by type as well so that the graph will be as effective in black and white. However, I did leave in the color as I think it does help highlight the differences between the two categories. I also changed the graph name to "Higher gun ownership leads to more gun deaths" as it better explains my claim. I also tried adding trend lines for each type but they do not add much information and decrease the data pixel ratio, so I left them off.
+To improve the visualization, I changed the point shape by type as well so that the graph will be as effective in black and white. However, I did leave in the color as I think it does help highlight the differences between the two categories. I also changed the graph name to "Higher gun ownership leads to more gun deaths" as it better explains my claim. I also tried adding trend lines for each type but they do not add much information and decrease the data to pixel ratio, so I left them off.
 
 ![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/Rviz1.png)
 
@@ -37,7 +37,7 @@ Both the 2017 gun death rate (per 100,000) the 2017 gun law “grade” come fro
 In the first version, I set the column as “Gun Death Rate per 100,000 people” (as a dimension) and the row as “Grade” (as a dimension). I then set the point colors by Grade (a rainbow color scale from A = blue to F = red), set the x-axis to 0-24, and added the “State” name as text.
 
 #### Revisions
-To improve the visualization, I removed the rainbow coloring as it is both unnecessary and admittedly a bit of an eyesore. Since I removed the colorscale, I could then remove the legend which improved the data pixel ratio. I changed the graph's title to "Fewer Gun Deaths in States with Stricter Gun Laws" as it better conveys my claim. I also added an annotation with the source's explanation of how the letter grades are calculated so that the audience is less likely to ignore the visualization out of skepticism.
+To improve the visualization, I removed the rainbow coloring as it is both unnecessary and admittedly a bit of an eyesore. Since I removed the color scale, I could then remove the legend which improved the data to pixel ratio. I changed the graph's title to "Fewer Gun Deaths in States with Stricter Gun Laws" as it better conveys my claim. I also added an annotation with the source's explanation of how the letter grades are calculated so that the audience is less likely to ignore the visualization out of skepticism.
 
 ![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/Rviz2.png)
 
@@ -57,7 +57,7 @@ The data for this graph came from the [National Violent Death Reporting System](
 In the first version, I set the column as “State” (as a dimension) and the row as “Deaths per 100,000” (as a dimension). I then filtered by “Deaths per 100,000” to remove null values and set the bar colors by Intent and changed the color scale.
 
 #### Revisions
-To improve the visualization, I sorted the state columns by total firearm deaths in order to make size comparisons easier for the viewer. I also grouped all causes besides homicide and suicide into an "Other" label to declutter the columns since the other categories were all very small. I also made the color scheme a little less glaring. Unlike the other two visualizations, I did not change the title as this one is more exploratory than declarative.
+To improve the visualization, I sorted the state columns by total firearm deaths in order to make size comparisons between states easier for the viewer. I also grouped all causes besides homicide and suicide into an "Other" label to declutter the columns since the other categories were all very small. I also made the color scheme a little less glaring. Unlike the other two visualizations, I did not change the title as this one is more exploratory than declarative.
 
 ![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/Rviz3.png)
 
@@ -106,8 +106,7 @@ I set the columns as “Country”  and the rows as “Gun Deaths per 100,000 Pe
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/DeathRatebyCountry_0/DeathRateViz)
 
 #### Revisions
-**WHY NOT**
-[chose not to, straightforward, would only need switch to b&w]
+I did not revise this one because it already makes its point in a clear and concise way. The implicit claim is that the U.S.'s gun death rate is not abnormally high. While it could be made more deceptive by removing select countries or trimming more countries off of the tail, I think that any more deception would become too obvious and the reader would dismiss the entire visualization. While the chart could be changed to be black and grey instead of blue and green, they are different enough shades that they will not be confused if the graph is shown in black and white.
 
 ### Visualization 3 - Graph #6
 Like with graph #1, I was curious how graph #6 could be manipulated by changing the selected countries. The original graph excluded countries with low Development Index scores and I thought including those countries or removing countries with low populations might change the graph's trend.
