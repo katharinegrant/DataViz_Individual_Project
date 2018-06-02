@@ -29,11 +29,11 @@ Now that I had state-level data on the number of registered guns per 100 people,
 #### Revisions to Ownership Version
 To improve my original visualization, I changed the point shape by type as well so that the graph will be as effective in black and white. However, I did leave in the color as I think it does help highlight the differences between the two categories. I also changed the graph name to "Higher gun ownership leads to more gun deaths" as it better explains my claim. I also tried adding trend lines for each type but they do not add much information and decrease the data to pixel ratio, so I left them off. Since my two datasets are not actually the same measurements, I included a note explaining the difference.
 
-Even though this graph is rather deceptive, I prefer it as my final version because it strongly supports my claim, unlike the registered gun version. The registered gun rate version would completely undermine the overall argument because it could be used as proof for the common claim that the problem isn't guns, but criminals with unregistered guns since that graph shows most states all within the same range of 0 to 5 guns per 100 people but death rates ranging from 3 to 23 gun deaths per 100,000 people. That graph is obviously missing some sort of factor that would explain that range, whether it's unregistered guns, crime rate, or something else entirely.
-
 ![Final Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/finalRviz1D.png)
 
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/Highergunownershipleadstomoregundeaths/Viz1_1)
+
+Even though this graph is rather deceptive, I prefer it as my final version because it strongly supports my claim, unlike the registered gun version. The registered gun rate version would completely undermine the overall argument because it could be used as proof for the common claim that the problem isn't guns, but criminals with unregistered guns since that graph shows most states all within the same range of 0 to 5 guns per 100 people but death rates ranging from 3 to 23 gun deaths per 100,000 people. That graph is obviously missing some sort of factor that would explain that range, whether it's unregistered guns, crime rate, or something else entirely.
 
 ### Visualization 2 - Graph #8
 When planning my first redesign of graph 8, I wanted to better visualize the relationship between gun control laws and gun-related deaths. The original had a state-level heat-map of the gun deaths per 100,000 people with the other variable only showing if there were any firearm laws in place. I thought it would be more interesting to instead look at a scale of regulation levels.
@@ -44,12 +44,12 @@ Both the 2017 gun death rate (per 100,000) the 2017 gun law “grade” come fro
 #### Graph Steps
 In the first version, I set the column as “Gun Death Rate per 100,000 people” (as a dimension) and the row as “Grade” (as a dimension). I then set the point colors by Grade (a rainbow color scale from A = blue to F = red), set the x-axis to 0-24, and added the “State” name as text.
 
-#### Revisions
-To improve the visualization, I removed the rainbow coloring as it is both unnecessary and admittedly a bit of an eyesore. Since I removed the color scale, I could then remove the legend which improved the data to pixel ratio. I changed the graph's title to "Fewer Gun Deaths in States with Stricter Gun Laws" as it better conveys my claim. I also added an annotation with the source's explanation of how the letter grades are calculated so that the audience is less likely to ignore the visualization out of skepticism.
-
 ![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/Rviz2.png)
 
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/GunControlRatingsandGunDeaths/Viz2)
+
+#### Revisions
+To improve the visualization, I removed the rainbow coloring as it is both unnecessary and admittedly a bit of an eyesore. Since I removed the color scale, I could then remove the legend which improved the data to pixel ratio. I changed the graph's title to "Fewer Gun Deaths in States with Stricter Gun Laws" as it better conveys my claim. I also added an annotation with the source's explanation of how the letter grades are calculated so that the audience is less likely to ignore the visualization out of skepticism.
 
 ![Final Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/finalRviz2.png)
 
@@ -64,12 +64,12 @@ The data for this graph came from the [National Violent Death Reporting System](
 #### Graph Steps
 In the first version, I set the column as “State” (as a dimension) and the row as “Deaths per 100,000” (as a dimension). I then filtered by “Deaths per 100,000” to remove null values and set the bar colors by Intent and changed the color scale.
 
-#### Revisions
-To improve the visualization, I sorted the state columns by total firearm deaths in order to make size comparisons between states easier for the viewer. I also grouped all causes besides homicide and suicide into an "Other" label to declutter the columns since the other categories were all very small. I also made the color scheme a little less glaring. Unlike the other two visualizations, I did not change the title as this one is more exploratory than declarative.
-
 ![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/Rviz3.png)
 
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/IntentofFirearmDeaths/Viz3)
+
+#### Revisions
+To improve the visualization, I sorted the state columns by total firearm deaths in order to make size comparisons between states easier for the viewer. I also grouped all causes besides homicide and suicide into an "Other" label to declutter the columns since the other categories were all very small. I also made the color scheme a little less glaring. Unlike the other two visualizations, I did not change the title as this one is more exploratory than declarative.
 
 ![Final Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/finalRviz3.png)
 
@@ -91,12 +91,12 @@ I set the columns as “Year” (as a dimension) and the rows as “Measure Valu
 
 While I did experiment with including the full breakdown of gun-related vs. not gun-related and suicide vs. homicide, the extra detail looked unnecessary since I was focusing on the trend in all deaths. I also tried the same graph with the death rates instead of counts, but the overall rate was decreasing while the overall count was increasing which is a better contradiction to claims that the buyback decreased deaths.
 
-#### Revisions
-To improve the visualization, I added trend lines which required changing the visualization from a bar graph to a line graph. While I had liked the look of the bar graph, I felt that showing the trend line for total violent deaths was more important to my claim that violent deaths had not decreased since the buyback. I also rephrased the axes, reference line, and legend so that they were more clear.
-
 ![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_1.png)
 
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/AustraliaViolentDeaths/AustraliaViz)
+
+#### Revisions
+To improve the visualization, I added trend lines which required changing the visualization from a bar graph to a line graph. While I had liked the look of the bar graph, I felt that showing the trend line for total violent deaths was more important to my claim that violent deaths had not decreased since the buyback. I also rephrased the axes, reference line, and legend so that they were more clear.
 
 ![Final Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/finalDviz1.png)
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/DecreaseedGunDeathsHaveNotImpactedTotalViolentDeaths/Dashboard4)
@@ -130,12 +130,12 @@ I changed the graph so that the columns and rows were longitude and latitude and
 
 The change to a map was to distract from the actual trends seen in the original graph. Instead, because of the placement and size of the circles, the reader will notice that the U.S.'s circle is both big and green while all of the red circles are smaller, which supports the claim that countries with more guns have fewer gun deaths.
 
-#### Revisions
-To improve the visualization, I cropped the map to focus on the Americas and Europe. This had two benefits. First, it de-clumps Europe so that I can enlarge the size of the circles' scale, making each European country's gun ownership appear higher than it is. Secondly, it hides some of the smaller green circles in Asia at first glance since they contradict the visualization's claim.
-
 ![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_3.png)
 
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/GunsandDeathRatebyCountry/GunDeathViz)
+
+#### Revisions
+To improve the visualization, I cropped the map to focus on the Americas and Europe. This had two benefits. First, it de-clumps Europe so that I can enlarge the size of the circles' scale, making each European country's gun ownership appear higher than it is. Secondly, it hides some of the smaller green circles in Asia at first glance since they contradict the visualization's claim.
 
 ![Final Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/finalDviz3.png)
 
