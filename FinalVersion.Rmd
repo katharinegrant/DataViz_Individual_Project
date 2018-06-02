@@ -31,7 +31,7 @@ To improve the visualization, I changed the point shape by type as well so that 
 When planning my first redesign of graph 8, I wanted to better visualize the relationship between gun control laws and gun-related deaths. The original had a state-level heat-map of the gun deaths per 100,000 people with the other variable only showing if there were any firearm laws in place. I thought it would be more interesting to instead look at a scale of regulation levels.
 
 #### Data
-Both the 2017 gun death rate (per 100,000) the 2017 gun law “grade” come from the state rankings table by the Giffords Law Center (http://lawcenter.giffords.org/scorecard/). I then copied the table into excel to use as my dataset which can be found [here](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/Excel_Sheets/State%20law%20grade%20and%20deaths.xlsx).
+Both the 2017 gun death rate (per 100,000) the 2017 gun law “grade” come from the state rankings table by the [Giffords Law Center](http://lawcenter.giffords.org/scorecard/). I then copied the table into excel to use as my dataset which can be found [here](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/Excel_Sheets/State%20law%20grade%20and%20deaths.xlsx).
 
 #### Graph Steps
 In the first version, I set the column as “Gun Death Rate per 100,000 people” (as a dimension) and the row as “Grade” (as a dimension). I then set the point colors by Grade (a rainbow color scale from A = blue to F = red), set the x-axis to 0-24, and added the “State” name as text.
@@ -51,7 +51,7 @@ To improve the visualization, I removed the rainbow coloring as it is both unnec
 When planning my first redesign of graph 10, I wanted to look at all the different intentions behind gun deaths and by state instead of by year. Since the overall argument is about gun deaths, I thought looking at mainly firearm suicides was ignoring the bigger picture.
 
 #### Data
-The data for this graph came from the National Violent Death Reporting System (https://wisqars.cdc.gov:8443/nvdrs/nvdrsDisplay.jsp) My parameters were: Age-adjusted Rates, Crude Rates and Death Counts, Use 2000 as the Standard Year; 1. Violent Death Counts and Rates; 2. All Intents; 3. All; 4. Firearm (All); 5. 2015, All Funded States, All Races, All Ethnicity, Both Sexes; All Ages; Down: State, Intent; Across: None. I then copied it directly into [an excel sheet](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/Excel_Sheets/Intent%20and%20State.xlsx).
+The data for this graph came from the [National Violent Death Reporting System](https://wisqars.cdc.gov:8443/nvdrs/nvdrsDisplay.jsp). My parameters were: Age-adjusted Rates, Crude Rates and Death Counts, Use 2000 as the Standard Year; 1. Violent Death Counts and Rates; 2. All Intents; 3. All; 4. Firearm (All); 5. 2015, All Funded States, All Races, All Ethnicity, Both Sexes; All Ages; Down: State, Intent; Across: None. I then copied it directly into [an excel sheet](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/Excel_Sheets/Intent%20and%20State.xlsx).
 
 #### Graph Steps
 In the first version, I set the column as “State” (as a dimension) and the row as “Deaths per 100,000” (as a dimension). I then filtered by “Deaths per 100,000” to remove null values and set the bar colors by Intent and changed the color scale.
@@ -73,7 +73,7 @@ To improve the visualization, I sorted the state columns by total firearm deaths
 The original graph #13 only focuses on suicides and specifically only firearm suicides. My first thoughts when seeing the original graph were whether or not overall suicides had the same downward trend and if the gun buyback had any impact on gun homicides. If I could make a visualization that shows the trend in gun suicides is only a part of a larger trend, I can argue that gun ownership is not the problem.
 
 #### Data
-The data came from the Australian Bureau of Statistics' report on causes of death from 1980 to 2016 (https://docs.google.com/spreadsheets/d/1dIbOUd6uVnecoN4POu8X1G0L86YPMNVtaqPB__6Z5AY/). Then in Excel, I created new columns to calculate the number of non-gun homicides and suicides. The file is in the excel folder (Australian_Deaths.xlsx).
+The data came from the [Australian Bureau of Statistics' report](https://docs.google.com/spreadsheets/d/1dIbOUd6uVnecoN4POu8X1G0L86YPMNVtaqPB__6Z5AY/) on causes of death from 1980 to 2016. Then in Excel, I created new columns to calculate the number of non-gun homicides and suicides. [The file](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/Excel_Sheets/Australian_Deaths.xlsx) is in the excel folder.
 
 #### Graph Steps
 In the first version, I created calculated fields for all not-gun-related deaths by adding other homicides and other suicides, and all gun-related deaths by adding gun homicides and gun suicides.
@@ -85,25 +85,25 @@ While I did experiment with including the full breakdown of gun-related vs. not 
 #### Revisions
 To improve the visualization, I added trend lines which required changing the visualization from a bar graph to a line graph. While I had liked the look of the bar graph, I felt that showing the trend line for total violent deaths was more important to my claim that violent deaths had not decreased since the buyback. I also rephrased the axes, reference line, and legend so that they were more clear.
 
-![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_1.png)
+![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_1.png)
 
 [Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/AustraliaViolentDeaths/AustraliaViz)
 
-![Final Version]()
+![Final Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/finalDviz1.png)
+[Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/DecreaseedGunDeathsHaveNotImpactedTotalViolentDeaths/Dashboard4)
 
 ### Visualization 2 - Graph #1
 The original graph #1 made its point by limiting the data to developed countries. When compared to only similar countries, the U.S. is very obviously an outlier with regards to gun deaths. However, when I worked on the revision for graph #6, I could see that there were countries with higher rates than the U.S. that could make the U.S. look normal.
 
 #### Data
-The dataset is the same as the one I used for a previous revision and is in the excel folder (Gun death and ownership comb.xlsx). The firearm-related deaths by country data come from https://en.wikipedia.org/wiki/List_of_countries_by_firearm-related_death_rate.
+The dataset is the same as the one I used for a previous revision and can be found [here](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/Excel_Sheets/Gun%20death%20and%20ownership%20comb.xlsx). The firearm-related deaths by country data come from [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_firearm-related_death_rate).
 
 #### Graph Steps
 I set the columns as “Country”  and the rows as “Gun Deaths per 100,000 People” before deciding to switch them to make the names more readable and sort the countries by rate. I then filtered gun deaths to above 2.5 to remove the long tail of countires with low gun deaths so the U.S. was closer to the center. I also changed the bar color for the U.S. so it would stand out and added a text box with the source. When placing the graph into a dashboard, I removed the legend because it was exactly the same as the y-axis labels.
 
-![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_2.png)
+![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_2.png)
 
-(https://public.tableau.com/profile/katharine.grant#!/vizhome/DeathRatebyCountry_0/DeathRateViz)
-
+[Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/DeathRatebyCountry_0/DeathRateViz)
 
 #### Revisions
 **WHY NOT**
@@ -113,7 +113,7 @@ I set the columns as “Country”  and the rows as “Gun Deaths per 100,000 Pe
 Like with graph #1, I was curious how graph #6 could be manipulated by changing the selected countries. The original graph excluded countries with low Development Index scores and I thought including those countries or removing countries with low populations might change the graph's trend.
 
 #### Data
-The data for this graph was the same as in my previous graph. However, I merged the data with another table of country populations (from https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)) which is in the excel folder (CountryPop.xlsx).
+The data for this graph was the same as in my previous graph. However, I merged the data with another table of country populations from [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)) which is in the [excel folder](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/Excel_Sheets/CountryPop.xlsx).
 
 #### Graph Steps
 In the first version, I set up the graph similar to the original with gun ownership as the columns and the gun deaths as the rows. I tried to cherry-pick the data based on country population because I thought removing countries with lower populations may skew the data. However, this was not the case so I moved on to my next method of deception.
@@ -123,12 +123,12 @@ I changed the graph so that the columns and rows were longitude and latitude and
 The change to a map was to distract from the actual trends seen in the original graph. Instead, because of the placement and size of the circles, the reader will notice that the U.S.'s circle is both big and green while all of the red circles are smaller, which supports the claim that countries with more guns have fewer gun deaths.
 
 #### Revisions
-To improve the visualization, I cropped the map to focus on the Americas and Europe. This had two benefits. First, it de-clumps Europe so that I can enlarge the size of the circles' scale, making each European country's gun ownership appear higher than it is. Secondly, it hides some of the smaller green circles in Asia since they contradict the visualization's claim.
+To improve the visualization, I cropped the map to focus on the Americas and Europe. This had two benefits. First, it de-clumps Europe so that I can enlarge the size of the circles' scale, making each European country's gun ownership appear higher than it is. Secondly, it hides some of the smaller green circles in Asia at first glance since they contradict the visualization's claim.
 
-![](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_3.png)
+![First Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/deception_3.png)
 
-(https://public.tableau.com/profile/katharine.grant#!/vizhome/GunsandDeathRatebyCountry/GunDeathViz)
+[Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/GunsandDeathRatebyCountry/GunDeathViz)
 
-[Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/AustraliaViolentDeaths/AustraliaViz)
+![Final Version](https://github.com/katharinegrant/DataViz_Individual_Project/blob/master/images/finalDviz3.png)
 
-![Final Version]()
+[Tableau Link](https://public.tableau.com/profile/katharine.grant#!/vizhome/Countrieswithmoregunsandfewerdeaths/GunDeathViz)
