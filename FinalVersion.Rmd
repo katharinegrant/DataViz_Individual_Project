@@ -1,11 +1,8 @@
 # Individual Project - Final Visualizations
 Katharine Grant
 
-## Introduction
-In the [original Vox article](https://www.vox.com/policy-and-politics/2017/10/2/16399418/us-gun-violence-statistics-maps-charts), we see 17 graphs that tell us that gun violence in the U.S. is drastically higher than in otherwise similar countries and that it is a direct result of high gun ownership rates and lax gun restrictions. The article starts off with more simple representations of data like firearm homicide rates by country and a map of all mass shootings in the last five years before moving onto visualizing correlations for both firearm homicides and firearm suicides.
-
 ## Redesign Visualizations
-For the redesigns, my audience is the same as the original article, generally liberal Americans with a midlevel education and data literacy. This audience will want to believe my claims about the benefits of gun regulations and will be less skeptical of my visualizations.
+For the redesigns, my audience is the same as the [original Vox article](https://www.vox.com/policy-and-politics/2017/10/2/16399418/us-gun-violence-statistics-maps-charts), generally liberal Americans with a midlevel education and data literacy. This audience will want to believe my claims about the benefits of gun regulations and will be less skeptical of my visualizations.
 
 ### Visualization 1 - Graphs #5&6
 When planning my first redesign, I though that graphs #5 and #6 could be converted to the same scale and put side by side, or overlaid with the states and countries as different colored points. Since my goal was to support the claim that more guns means more gun deaths, overlaying them would be especially striking since most other countries have fewer than four gun deaths per 100,000 people while the lowest rate for a state is three or four per 100,000 people. From an aesthetic side, I also wanted to find a middle ground on colors, as graph #5 is glaringly bright and graph #6 has very little color.
